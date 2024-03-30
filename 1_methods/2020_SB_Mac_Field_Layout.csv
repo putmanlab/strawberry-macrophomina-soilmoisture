@@ -1,0 +1,13 @@
+﻿treat_block_1,irrigation_1,block_1,main_row_1,sub_row_1,treat_block_2,irrigation_2,block_2,main_row_2,sub_row_2,treat_block_3,irrigation_3,block_3,main_row_3,sub_row_3,treat_block_4,irrigation_4,block_4,main_row_4,sub_row_4
+FI,Low,1,1,1,MI,High,2,1,1,FC,High,3,1,1,MI,Optimal,4,1,1
+MI,Low,1,1,2,FC,High,2,1,2,MC,High,3,1,2,FI,Optimal,4,1,2
+FC,Low,1,1,3,MC,High,2,1,3,MI,High,3,1,3,MC,Optimal,4,1,3
+MC,Low,1,1,4,FI,High,2,1,4,FI,High,3,1,4,FC,Optimal,4,1,4
+MI,High,1,2,5,FI,Optimal,2,2,5,FI,Low,3,2,5,FI,Low,4,2,5
+FI,High,1,2,6,MI,Optimal,2,2,6,MI,Low,3,2,6,FC,Low,4,2,6
+MC,High,1,2,7,FC,Optimal,2,2,7,FC,Low,3,2,7,MC,Low,4,2,7
+FC ,High,1,2,8,MC,Optimal,2,2,8,MC,Low,3,2,8,MI,Low,4,2,8
+MI,Optimal,1,3,9,FC,Low,2,3,9,FC,Optimal,3,3,9,MI,High,4,3,9
+MC,Optimal,1,3,10,MC,Low,2,3,10,MC,Optimal,3,3,10,FI,High,4,3,10
+FI,Optimal,1,3,11,FI,Low,2,3,11,MI,Optimal,3,3,11,FC,High,4,3,11
+FC,Optimal,1,3,12,MI,Low,2,3,12,FI,Optimal,3,3,12,MC,High,4,3,12

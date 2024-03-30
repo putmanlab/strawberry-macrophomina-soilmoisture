@@ -1,0 +1,318 @@
+Date,Block,Irrigation,Cultivar,Inoculum,Plant,Roots_Mp,Roots_none,Total_Roots,Percent_Roots_Mp,Crown_Mp,Crown_none,Total_Crown,Percent_Crown_Mp,Symptomatic,Mp,Random,Stored,New_Name,Notes
+11-19-19,1,High,Fronteras,Control,3,0,0,20,0,0,0,8,0,No,N,yes,,,"No M.p., thrown out"
+11-19-19,1,High,Fronteras,Inoculated,11,0,0,20,0,0,0,8,0,Yes,N,yes,,,"No M.p., thrown out"
+11-19-19,1,High,Monterey,Control,23,0,0,20,0,0,0,8,0,Yes,N,yes,,,"No M.p., thrown out"
+11-19-19,1,Low,Fronteras,Control,2,0,0,20,0,0,0,8,0,No,N,yes,,,"No M.p., thrown out"
+11-19-19,1,Low,Monterey,Control,15,0,0,20,0,0,0,8,0,No,N,yes,,,"No M.p., thrown out"
+11-19-19,1,Optimal,Fronteras,Control,10,0,0,20,0,0,0,8,0,No,N,yes,,,"No M.p., thrown out"
+11-19-19,1,Optimal,Monterey,Control,23,0,0,20,0,0,0,8,0,No,N,yes,,,"No M.p., thrown out"
+11-19-19,2,High,Fronteras,Control,23,0,0,20,0,0,0,8,0,No,N,yes,,,"No M.p., thrown out"
+11-19-19,2,High,Monterey,Control,23,0,0,20,0,0,0,8,0,Yes,N,yes,,,"No M.p., thrown out"
+11-19-19,2,Low,Fronteras,Control,3,0,0,20,0,0,0,8,0,No,N,yes,,,"No M.p., thrown out"
+11-19-19,2,Low,Monterey,Control,2,0,0,20,0,0,0,8,0,Yes,N,yes,,,"No M.p., thrown out"
+11-19-19,2,Low,Monterey,Inoculated,19,0,0,20,0,0,0,8,0,No,N,yes,,,"No M.p., thrown out"
+11-19-19,2,Optimal,Fronteras,Control,17,0,0,20,0,0,0,8,0,Yes,N,yes,,,"Microsclerotia seen but Verticillium conidia and conidiophores seen. No M.p., thrown out"
+11-19-19,2,Optimal,Fronteras,Inoculated,22,0,0,20,0,0,0,8,0,No,N,yes,,,"No M.p., thrown out"
+11-19-19,2,Optimal,Monterey,Control,22,0,0,20,0,0,0,8,0,No,N,yes,,,"No M.p., thrown out"
+11-19-19,3,High,Fronteras,Control,23,0,0,20,0,0,0,8,0,Yes,N,yes,,,"No M.p., thrown out"
+11-19-19,3,High,Monterey,Control,27,0,0,20,0,0,0,8,0,No,N,yes,,,"No M.p., thrown out"
+11-19-19,3,Low,Fronteras,Control,27,0,0,20,0,0,0,8,0,No,N,yes,,,"No M.p., thrown out"
+11-19-19,3,Low,Monterey,Control,14,0,0,20,0,0,0,8,0,Yes,N,yes,,,"No M.p., thrown out"
+11-19-19,3,Optimal,Fronteras,Control,11,0,0,20,0,0,0,8,0,No,N,yes,,,"No M.p., thrown out"
+11-19-19,3,Optimal,Monterey,Control,7,0,0,20,0,0,0,8,0,No,N,yes,,,"No M.p., thrown out"
+11-19-19,3,High,Monterey,Inoculated,2,4,0,20,20,0,0,8,0,No,Y,yes,yes,VSP-0489-MAph FRan,"Crown on PDA+++ covered in Rhizopus, thrown out"
+11-19-19,3,Low,Monterey,Inoculated,2,4,0,20,20,0,0,8,0,No,Y,yes,yes,VSP-0490-MAph FRan,
+11-19-19,2,Low,Fronteras,Inoculated,26,0,0,20,0,0,0,8,0,No,N,yes,,,
+11-19-19,3,High,Fronteras,Inoculated,14,1,0,21,4.761904762,0,0,8,0,Yes,Y,yes,,,
+11-19-19,3,Low,Fronteras,Inoculated,7,1,0,20,5,3,0,8,37.5,Yes,Y,yes,,,
+11-19-19,1,Low,Monterey,Inoculated,18,8,0,20,40,0,0,8,0,No,Y,yes,yes,VSP-0492-MAph FRan,
+11-19-19,1,High,Monterey,Inoculated,22,2,0,20,10,0,0,8,0,Yes,Y,yes,yes,VSP-0491-MAph FRan,
+11-19-19,2,High,Fronteras,Inoculated,27,2,0,20,10,0,0,8,0,Yes,Y,yes,,,
+11-19-19,2,High,Monterey,Inoculated,30,3,0,20,15,1,0,8,12.5,No,Y,yes,yes,VSP-0494-MAph FRan,
+11-19-19,1,Optimal,Monterey,Inoculated,14,3,0,20,15,0,0,8,0,No,Y,yes,yes,VSP-0493-MAph FRan,
+11-19-19,3,Optimal,Monterey,Inoculated,14,4,0,20,20,0,0,8,0,No,Y,yes,yes,VSP-0487-MAph FRan,
+11-19-19,1,Optimal,Fronteras,Inoculated,10,4,0,20,20,0,0,8,0,No,Y,yes,,,
+11-19-19,3,Optimal,Fronteras,Inoculated,3,4,0,20,20,3,0,8,37.5,Yes,Y,yes,,,
+11-19-19,2,Optimal,Monterey,Inoculated,27,4,0,20,20,1,0,8,12.5,No,Y,yes,yes,VSP-0488-MAph FRan,Microsclerotia seen but Verticillium conidia and conidiophores seen
+11-19-19,1,Low,Fronteras,Inoculated,11,5,0,20,25,0,0,8,0,No,Y,yes,,,
+12-16-19,2,High,Fronteras,Control,30,0,0,20,0,0,0,8,0,No,N,yes,,,
+12-16-19,2,High,Monterey,Control,22,0,0,20,0,0,0,8,0,No,N,yes,,,
+12-16-19,2,Low,Fronteras,Control,26,0,0,20,0,0,0,8,0,No,N,yes,,,
+12-16-19,2,Low,Monterey,Control,10,0,0,20,0,0,0,8,0,No,N,yes,,,
+12-16-19,2,Low,Monterey,Inoculated,18,0,0,20,0,0,0,8,0,No,N,yes,,,
+12-16-19,2,Optimal,Monterey,Control,27,0,0,20,0,0,0,8,0,No,N,yes,,,
+12-16-19,2,Optimal,Monterey,Inoculated,2,0,0,20,0,0,0,8,0,No,N,yes,,,
+12-16-19,3,High,Fronteras,Control,7,0,0,21,0,0,0,8,0,No,N,yes,,,
+12-16-19,3,High,Monterey,Control,11,0,0,20,0,0,0,8,0,No,N,yes,,,
+12-16-19,3,Optimal,Fronteras,Control,26,0,0,20,0,0,0,8,0,No,N,yes,,,
+12-16-19,3,Optimal,Monterey,Control,30,0,0,20,0,0,0,8,0,No,N,yes,,,
+12-16-19,4,High,Monterey,Control,10,0,0,20,0,0,0,8,0,No,N,yes,,,
+12-16-19,4,Low,Fronteras,Control,22,0,0,20,0,0,0,8,0,No,N,yes,,,
+12-16-19,4,Low,Fronteras,Inoculated,3,0,0,20,0,0,0,8,0,No,N,yes,,,
+12-16-19,4,Optimal,Monterey,Control,11,0,0,20,0,0,0,8,0,No,N,yes,,,
+12-16-19,2,High,Monterey,Inoculated,2,0,0,20,0,0,0,8,0,Yes,N,yes,,,
+12-16-19,2,Low,Fronteras,Inoculated,3,0,0,20,0,0,0,8,0,Yes,N,yes,,,
+12-16-19,2,Optimal,Fronteras,Control,7,0,0,20,0,0,0,8,0,Yes,N,yes,,,
+12-16-19,3,High,Fronteras,Inoculated,23,0,0,20,0,0,0,8,0,Yes,N,yes,,,
+12-16-19,3,Low,Fronteras,Control,6,0,0,20,0,0,0,8,0,Yes,N,yes,,,
+12-16-19,3,Low,Fronteras,Inoculated,22,0,0,22,0,0,0,8,0,Yes,N,yes,,,
+12-16-19,3,Low,Monterey,Control,27,0,0,20,0,0,0,8,0,Yes,N,yes,,,
+12-16-19,4,High,Fronteras,Control,7,0,0,20,0,0,0,8,0,Yes,N,yes,,,
+12-16-19,4,Low,Monterey,Control,19,0,0,20,0,0,0,8,0,Yes,N,yes,,,
+12-16-19,4,Optimal,Fronteras,Control,14,0,0,20,0,0,0,8,0,Yes,N,yes,,,
+12-16-19,4,High,Fronteras,Inoculated,23,1,0,20,5,0,0,8,0,No,Y,yes,Yes,VSP-0502-MAph FRan,crown PDA+++ covered in Rhizopus
+12-16-19,3,High,Monterey,Inoculated,23,1,0,20,5,1,0,8,12.5,No,Y,yes,,,
+12-16-19,3,Low,Monterey,Inoculated,22,1,0,20,5,1,0,8,12.5,No,Y,yes,Yes,VSP-0500-MAph FRan,
+12-16-19,2,Optimal,Fronteras,Inoculated,14,2,0,20,10,0,0,8,0,No,Y,yes,Yes,VSP-0499-MAph FRan,
+12-16-19,4,Optimal,Fronteras,Inoculated,27,2,0,20,10,0,0,8,0,No,Y,yes,,,
+12-16-19,3,Optimal,Monterey,Inoculated,23,2,0,20,10,0,0,8,0,Yes,Y,yes,,,
+12-16-19,3,Optimal,Fronteras,Inoculated,18,2,0,20,10,1,0,8,0,No,Y,yes,,,
+12-16-19,4,Low,Monterey,Inoculated,27,2,0,20,100,1,0,8,12.5,Yes,Y,yes,,,
+12-16-19,2,High,Fronteras,Inoculated,7,3,0,20,15,0,0,8,0,No,Y,yes,,,
+12-16-19,4,Optimal,Monterey,Inoculated,23,3,0,20,15,0,0,8,0,No,Y,yes,,,
+12-16-19,4,High,Monterey,Inoculated,15,8,0,20,40,0,0,8,0,No,Y,yes,Yes,VSP-0501-MAph FRan,
+1-14-2020,1,High,Fronteras,Control,23,0,0,20,0,0,0,8,0,yes,N,yes,,,
+1-14-2020,1,High,Monterey,Control,27,0,0,20,0,0,0,8,0,yes,N,yes,,,
+1-14-2020,1,Low,Fronteras,Control,18,0,0,13,0,0,0,8,0,no,N,yes,,,
+1-14-2020,1,Low,Monterey,Control,6,0,0,20,0,0,0,8,0,yes,N,yes,,,
+1-14-2020,1,Optimal,Fronteras,Control,27,0,0,20,0,0,0,8,0,yes,N,yes,,,
+1-14-2020,1,Optimal,Monterey,Control,10,0,0,20,0,0,0,8,0,yes,N,yes,,,
+1-14-2020,3,High,Fronteras,Control,2,0,0,20,0,0,0,8,0,no,N,yes,,,
+1-14-2020,3,High,Monterey,Control,7,0,0,20,0,0,0,8,0,yes,N,yes,,,
+1-14-2020,3,Low,Fronteras,Control,22,0,0,20,0,0,0,8,0,yes,N,yes,,,
+1-14-2020,3,Low,Monterey,Control,11,0,0,20,0,0,0,8,0,yes,N,yes,,,
+1-14-2020,3,Optimal,Fronteras,Control,22,0,0,20,0,0,0,8,0,no,N,yes,,,
+1-14-2020,3,Optimal,Monterey,Control,15,0,0,20,0,0,0,8,0,no,N,yes,,,
+1-14-2020,4,High,Fronteras,Control,18,0,0,20,0,0,0,8,0,no,N,yes,,,
+1-14-2020,4,High,Monterey,Control,18,0,0,20,0,0,0,8,0,yes,N,yes,,,
+1-14-2020,4,Low,Fronteras,Control,26,0,0,20,0,0,0,8,0,yes,N,yes,,,
+1-14-2020,4,Low,Monterey,Control,23,0,0,20,0,0,0,8,0,no,N,yes,,,
+1-14-2020,4,Optimal,Monterey,Control,6,0,0,20,0,0,0,8,0,yes,N,yes,,,
+1-14-2020,4,Optimal,Fronteras,Control,11,0,0,20,0,1,0,8,12.5,no,Y,yes,,,
+1-14-2020,1,Optimal,Monterey,Inoculated,23,0,0,20,0,0,0,8,0,yes,N,yes,,,
+1-14-2020,3,High,Fronteras,Inoculated,15,0,0,20,0,0,0,8,0,no,N,yes,,,
+1-14-2020,3,Optimal,Fronteras,Inoculated,15,0,0,20,0,0,0,8,0,yes,N,yes,,,
+1-14-2020,4,Optimal,Fronteras,Inoculated,15,5,0,20,0,0,0,8,0,yes,N,yes,Yes,VSP-0505-MAph FRan,
+1-14-2020,1,High,Fronteras,Inoculated,15,0,0,20,0,1,0,8,12.5,no,Y,yes,,,
+1-14-2020,4,Optimal,Monterey,Inoculated,10,1,0,25,5,3,0,8,37.5,yes,Y,yes,,,
+1-14-2020,1,High,Monterey,Inoculated,15,2,0,20,10,1,0,8,12.5,yes,Y,yes,,,
+1-14-2020,1,Low,Fronteras,Inoculated,15,2,0,20,10,1,0,8,12.5,yes,Y,yes,,,
+1-14-2020,3,Low,Fronteras,Inoculated,19,3,0,20,15,0,0,8,0,no,Y,yes,Yes,VSP-0507-MAph FRan,
+1-14-2020,4,Low,Monterey,Inoculated,30,3,0,20,15,0,0,8,0,no,Y,yes,,,
+1-14-2020,4,High,Fronteras,Inoculated,11,3,0,20,15,1,0,8,12.5,no,Y,yes,Yes,thrown out,looks like yes
+1-14-2020,3,Optimal,Monterey,Inoculated,18,3,0,20,15,2,0,8,25,yes,Y,yes,,,
+1-14-2020,1,Optimal,Fronteras,Inoculated,19,4,0,20,20,1,0,8,12.5,no,Y,yes,,,
+1-14-2020,4,Low,Fronteras,Inoculated,6,6,0,20,30,0,0,8,0,no,Y,yes,,,
+1-14-2020,4,High,Monterey,Inoculated,7,6,0,20,30,1,0,8,12.5,no,Y,yes,,,
+1-14-2020,3,High,Monterey,Inoculated,14,6,0,20,30,2,0,8,25,yes,Y,yes,,,
+1-14-2020,1,Low,Monterey,Inoculated,7,7,0,20,35,1,0,8,12.5,no,Y,yes,Yes,VSP-0504-MAph FRan,
+1-14-2020,3,Low,Monterey,Inoculated,11,11,0,20,55,3,0,8,37.5,no,Y,yes,Yes,VSP-0503-MAph FRan,
+2-11-2020,1,High,Monterey,Control,7,0,0,20,0,0,0,8,0,yes,N,yes,,,
+2-11-2020,1,Low,Fronteras,Control,14,0,0,20,0,0,0,8,0,yes,N,yes,,,
+2-11-2020,1,Low,Monterey,Control,18,0,0,20,0,0,0,8,0,no,N,yes,,,
+2-11-2020,1,Optimal,Fronteras,Control,19,0,0,20,0,0,0,8,0,yes,N,yes,,,
+2-11-2020,1,Optimal,Monterey,Control,15,0,0,20,0,0,0,8,0,no,N,yes,,,
+2-11-2020,2,High,Fronteras,Control,11,0,0,20,0,0,0,8,0,yes,N,yes,,,
+2-11-2020,2,High,Monterey,Control,14,0,0,20,0,0,0,8,0,no,N,yes,,,
+2-11-2020,2,Low,Fronteras,Control,6,0,0,20,0,0,0,8,0,no,N,yes,,,
+2-11-2020,2,Low,Monterey,Control,3,0,0,20,0,0,0,8,0,yes,N,yes,,,
+2-11-2020,2,Optimal,Fronteras,Control,27,0,0,20,0,0,0,8,0,no,N,yes,,,
+2-11-2020,2,Optimal,Monterey,Control,19,0,0,20,0,0,0,8,0,no,N,yes,,,
+2-11-2020,4,High,Fronteras,Control,15,0,0,20,0,0,0,8,0,no,N,yes,,,
+2-11-2020,4,Low,Fronteras,Control,2,0,0,20,0,0,0,8,0,yes,N,yes,,,
+2-11-2020,4,High,Monterey,Control,26,0,0,20,0,0,0,8,0,no,N,yes,,,
+2-11-2020,4,Low,Monterey,Control,3,0,0,20,0,0,0,8,0,no,N,yes,,,
+2-11-2020,4,Optimal,Fronteras,Control,6,0,0,20,0,0,0,8,0,yes,N,yes,,,
+2-11-2020,4,Optimal,Monterey,Control,26,0,0,20,0,0,0,8,0,yes,N,yes,,,
+2-11-2020,1,High,Fronteras,Control,19,2,0,20,10,2,0,8,25,no,Y,yes,,,
+2-11-2020,1,High,Monterey,Inoculated,27,0,0,20,0,0,0,8,0,no,N,yes,,,
+2-11-2020,1,Low,Fronteras,Inoculated,18,0,0,20,0,0,0,8,0,yes,N,yes,,,
+2-11-2020,1,Optimal,Fronteras,Inoculated,23,0,0,20,0,0,0,8,0,yes,N,yes,,,
+2-11-2020,2,Optimal,Fronteras,Inoculated,10,0,0,20,0,0,0,8,0,yes,N,yes,,,
+2-11-2020,4,High,Monterey,Inoculated,19,0,0,20,0,0,0,8,0,no,N,yes,,,
+2-11-2020,4,Optimal,Monterey,Inoculated,7,0,0,20,0,0,0,8,0,no,N,yes,,,
+2-11-2020,2,High,Monterey,Inoculated,19,0,0,20,0,0,0,8,0,yes,Y,yes,,,"crown PDA+++ covered in Rhizopus, thrown out."
+2-11-2020,2,High,Fronteras,Inoculated,18,0,0,20,0,0,0,8,0,no,Y,yes,,,
+2-11-2020,2,Low,Monterey,Inoculated,14,0,0,20,0,1,0,8,12.5,yes,Y,yes,,,
+2-11-2020,4,Low,Monterey,Inoculated,11,0,0,20,0,1,0,8,12.5,yes,Y,yes,,,
+2-11-2020,1,Low,Monterey,Inoculated,11,2,0,20,10,0,0,8,0,yes,Y,yes,yes,VSP-0529-MAph-FRan,thrown out
+2-11-2020,4,High,Fronteras,Inoculated,2,2,0,20,10,0,0,8,0,no,Y,yes,,,
+2-11-2020,4,Low,Fronteras,Inoculated,30,2,0,20,10,0,0,8,0,yes,Y,yes,,,
+2-11-2020,2,Optimal,Monterey,Inoculated,14,2,0,20,10,1,0,8,12.5,no,Y,yes,,,
+2-11-2020,1,Optimal,Monterey,Inoculated,26,2,0,20,10,3,0,8,37.5,yes,Y,yes,yes,VSP-0526-MAph-FRan,
+2-11-2020,2,Low,Fronteras,Inoculated,27,4,0,20,20,0,0,8,0,yes,Y,yes,,,
+2-11-2020,1,High,Fronteras,Inoculated,2,4,0,20,20,1,0,8,12.5,no,Y,yes,yes,VSP-0527-MAph-FRan,
+2-11-2020,4,Optimal,Fronteras,Inoculated,3,8,0,20,40,0,0,8,0,yes,Y,yes,yes,VSP-0528-MAph-FRan,
+3-9-2020,1,High,Fronteras,Control,27,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,1,High,Fronteras,Inoculated,18,0,0,20,0,0,0,8,0,,N,yes,,,"crown PDA+++ Rhizopus, thrown out"
+3-9-2020,1,High,Monterey,Control,14,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,1,High,Monterey,Inoculated,7,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,1,Low,Fronteras,Control,15,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,1,Low,Fronteras,Inoculated,23,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,1,Low,Monterey,Control,30,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,1,Optimal,Fronteras,Control,3,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,1,Optimal,Fronteras,Inoculated,30,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,1,Optimal,Monterey,Control,30,0,0,21,0,0,0,8,0,,N,yes,,,
+3-9-2020,1,Optimal,Monterey,Inoculated,19,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,2,High,Fronteras,Control,27,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,2,High,Fronteras,Inoculated,10,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,2,High,Monterey,Control,6,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,2,Low,Fronteras,Control,2,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,2,Low,Monterey,Control,15,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,2,Optimal,Fronteras,Control,19,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,2,Optimal,Fronteras,Inoculated,15,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,2,Optimal,Monterey,Control,18,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,3,High,Fronteras,Control,26,0,0,20,0,0,0,8,0,,N,yes,,,"crown PDA+++ Rhizopus, thrown out"
+3-9-2020,3,High,Monterey,Control,30,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,3,High,Monterey,Inoculated,26,0,0,20,0,0,0,8,0,,N,yes,,,"crown PDA+++ Rhizopus, thrown out"
+3-9-2020,3,Low,Fronteras,Control,26,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,3,Low,Fronteras,Inoculated,26,0,0,20,0,0,0,8,0,,N,yes,,,"crown PDA+++ Rhizopus, thrown out"
+3-9-2020,3,Low,Monterey,Control,18,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,3,Low,Monterey,Inoculated,23,0,0,20,0,0,0,8,0,,N,yes,,,"crown PDA+++ Rhizopus, thrown out"
+3-9-2020,3,Optimal,Fronteras,Control,2,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,3,Optimal,Fronteras,Inoculated,30,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,3,Optimal,Monterey,Control,10,0,0,20,0,0,0,8,0,,N,yes,,,
+3-9-2020,1,Low,Monterey,Inoculated,10,1,0,20,5,1,0,8,12.5,,Y,yes,yes,VSP-0532-MAph-FRan,
+3-9-2020,2,High,Monterey,Inoculated,23,1,0,25,4,0,0,8,0,,Y,yes,,,
+3-9-2020,2,Low,Fronteras,Inoculated,23,1,0,20,0,1,0,8,12.5,,Y,yes,,,
+3-9-2020,2,Low,Monterey,Inoculated,10,2,0,20,5,1,0,8,0,,Y,yes,,,looks like Mp but subcultures not good
+3-9-2020,2,Optimal,Monterey,Inoculated,19,0,0,20,0,0,0,8,0,,Y,yes,,,"subcultures not Mp and slides made do not look like microscleortia are big enough, lots of macroconidia"
+3-9-2020,3,High,Fronteras,Inoculated,22,0,0,20,0,1,0,8,12.5,,Y,yes,,,
+3-9-2020,3,Optimal,Monterey,Inoculated,30,1,0,17,5.882352941,0,0,8,0,,Y,yes,yes,VSP-0530-MAph-FRan,
+4-14-2020,2,Optimal,Monterey,Control,25,0,0,14,0,0,0,16,0,,N,no,,,
+4-28-2020,2,High,Fronteras,Control,7,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,2,High,Fronteras,Inoculated,26,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,2,High,Monterey,Control,3,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,2,High,Monterey,Inoculated,7,1,0,20,5,0,0,8,0,,Y,yes,,,
+4-28-2020,2,Low,Fronteras,Control,7,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,2,Low,Fronteras,Inoculated,2,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,2,Low,Monterey,Control,7,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,2,Low,Monterey,Inoculated,11,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,2,Optimal,Fronteras,Control,14,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,2,Optimal,Fronteras,Inoculated,7,1,0,20,5,0,0,8,0,,Y,yes,,,
+4-28-2020,2,Optimal,Monterey,Control,6,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,2,Optimal,Monterey,Inoculated,22,2,0,20,10,0,0,8,0,,Y,yes,yes,VSP-0522-MAph-FRan,
+4-28-2020,3,High,Fronteras,Control,15,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,3,High,Fronteras,Inoculated,7,1,0,20,5,0,0,8,0,,Y,yes,yes,VSP-0524-MAph-FRan,
+4-28-2020,3,High,Monterey,Control,18,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,3,High,Monterey,Inoculated,18,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,3,Low,Fronteras,Control,3,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,3,Low,Fronteras,Inoculated,27,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,3,Low,Monterey,Control,2,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,3,Low,Monterey,Inoculated,26,1,0,20,5,1,0,8,12.5,,Y,yes,yes,VSP-0523-MAph-FRan,
+4-28-2020,3,Optimal,Fronteras,Control,18,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,3,Optimal,Fronteras,Inoculated,19,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,3,Optimal,Monterey,Control,11,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,3,Optimal,Monterey,Inoculated,7,4,0,20,20,1,0,8,12.5,,Y,yes,,,
+4-28-2020,4,High,Fronteras,Control,26,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,4,High,Fronteras,Inoculated,14,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,4,High,Monterey,Control,7,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,4,High,Monterey,Inoculated,27,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,4,Low,Fronteras,Control,15,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,4,Low,Fronteras,Inoculated,7,1,0,20,5,0,0,8,0,,Y,yes,yes,VSP-0525-MAph-FRan,
+4-28-2020,4,Low,Monterey,Control,27,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,4,Low,Monterey,Inoculated,2,2,0,20,10,2,0,8,12.5,,Y,yes,,,
+4-28-2020,4,Optimal,Fronteras,Control,23,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,4,Optimal,Fronteras,Inoculated,6,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,4,Optimal,Monterey,Control,2,0,0,20,0,0,0,8,0,,N,yes,,,
+4-28-2020,4,Optimal,Monterey,Inoculated,14,0,0,20,0,0,0,8,0,,N,yes,,,
+5-12-2020,1,Low,Monterey,Inoculated,24,13,0,20,65,8,0,8,100,yes,Y,no,yes,VSP-0521-MAph-FRan,dead
+5-12-2020,1,Optimal,Fronteras,Inoculated,5,2,0,20,10,7,0,8,87.5,yes,Y,no,,,dead
+5-12-2020,1,High,Monterey,Control,10,0,0,20,0,2,0,8,101,yes,Y,no,yes,VSP-0519-MAph-FRan,dead
+5-12-2020,2,Low,Fronteras,Inoculated,21,2,0,20,10,8,0,8,100,yes,Y,no,,,dead
+5-12-2020,2,Low,Monterey,Inoculated,9,7,0,20,35,8,0,8,100,yes,Y,no,,,dead
+5-12-2020,2,Low,Fronteras,Inoculated,5,0,0,20,0,2,0,8,25,yes,Y,no,yes,VSP-0520-MAph-FRan,dead
+5-12-2020,3,Optimal,Fronteras,Inoculated,11,2,0,20,10,7,0,8,87.5,yes,Y,no,,,dead
+5-26-2020,1,High,Fronteras,Control,6,0,0,20,0,0,0,8,0,,N,yes,,,
+5-26-2020,1,Low,Fronteras,Control,19,0,0,20,0,0,0,8,0,,N,yes,,,
+5-26-2020,1,Low,Monterey,Control,19,0,0,20,0,0,0,8,0,,N,yes,,,
+5-26-2020,1,Optimal,Fronteras,Inoculated,26,0,0,20,0,0,0,8,0,,N,yes,,,
+5-26-2020,3,High,Fronteras,Control,11,0,0,20,0,0,0,8,0,,N,yes,,,
+5-26-2020,3,High,Monterey,Control,6,0,0,20,0,0,0,8,0,,N,yes,,,
+5-26-2020,3,Low,Fronteras,Control,2,0,0,20,0,0,0,8,0,,N,yes,,,
+5-26-2020,3,Low,Monterey,Control,30,0,0,20,0,0,0,8,0,,N,yes,,,
+5-26-2020,3,Optimal,Fronteras,Control,3,0,0,21,0,0,0,8,0,,N,yes,,,
+5-26-2020,3,Optimal,Monterey,Control,6,0,0,20,0,0,0,8,0,,N,yes,,,
+5-26-2020,4,High,Fronteras,Control,11,0,0,20,0,0,0,8,0,,N,yes,,,
+5-26-2020,4,High,Monterey,Control,3,0,1,20,0,0,0,8,0,,N,yes,,,
+5-26-2020,4,Low,Fronteras,Control,7,0,0,20,0,0,0,8,0,,N,yes,,,
+5-26-2020,4,Low,Monterey,Control,7,0,0,21,0,0,0,8,0,,N,yes,,,
+5-26-2020,4,Optimal,Fronteras,Control,2,0,0,20,0,0,0,8,0,,N,yes,,,
+5-26-2020,4,Optimal,Fronteras,Inoculated,10,0,0,20,0,0,0,8,0,,N,yes,,,
+5-26-2020,4,Optimal,Monterey,Control,22,0,0,20,0,0,0,8,0,,N,yes,,,
+5-26-2020,1,Optimal,Monterey,Control,11,0,0,20,0,5,0,8,62.5,,Y,yes,yes,VSP-0554-MAph-FRan,can't find it
+5-26-2020,1,High,Fronteras,Inoculated,26,0,0,20,0,8,0,8,100,,Y,yes,,,"thrown out July 15, 2020 LP"
+5-26-2020,1,High,Monterey,Control,6,0,0,20,0,0,0,8,0,,N,yes,,,"Not M.p. saw microsclerotia but they were half the size as those seen from M.p. Only seen on one root, and subcultures did not grow M.p. Saw Fusarium conidia and each subculture grew something that looked like Fusarium."
+5-26-2020,1,Low,Monterey,Inoculated,14,1,0,20,5,4,0,8,50,,Y,yes,,,"thrown out July 15, 2020 LP"
+5-26-2020,1,Low,Fronteras,Inoculated,3,1,0,20,5,7,0,8,87.5,,Y,yes,,,"thrown out July 15, 2020 LP"
+5-26-2020,1,Optimal,Fronteras,Control,23,2,0,20,10,7,0,8,87.5,,Y,yes,yes,VSP-0555-MAph-FRan,
+5-26-2020,1,Optimal,Monterey,Inoculated,11,2,0,20,10,0,0,8,0,,Y,yes,,,"thrown out July 15, 2020 LP"
+5-26-2020,1,High,Monterey,Inoculated,19,13,0,20,65,2,0,8,25,,Y,yes,,,"thrown out July 15, 2020 LP"
+5-26-2020,3,High,Fronteras,Inoculated,11,0,0,20,0,6,0,8,75,,Y,yes,yes,VSP-0553-MAph-FRan,"roots thrown out July 14, 2020 LP"
+5-26-2020,3,Optimal,Fronteras,Inoculated,14,0,0,20,0,8,0,8,100,,Y,yes,,,"thrown out July 15, 2020 LP"
+5-26-2020,3,Low,Fronteras,Inoculated,14,3,0,20,15,0,0,8,0,,Y,yes,,,"thrown out July 15, 2020 LP"
+5-26-2020,3,Optimal,Monterey,Inoculated,27,4,0,20,20,4,0,8,50,,Y,yes,,,"roots accidentally on PDA+++ instead of crown, thrown out July 15, 2020 LP"
+5-26-2020,3,Low,Monterey,Inoculated,14,5,0,20,25,4,0,8,50,,Y,yes,yes,VSP-0550-MAph-FRan,"thrown out July 15, 2020 LP"
+5-26-2020,3,High,Monterey,Inoculated,7,6,0,20,30,0,0,8,0,,Y,yes,,,"thrown out July 15, 2020 LP"
+5-26-2020,4,Optimal,Monterey,Inoculated,6,0,0,20,0,3,0,8,37.5,,Y,yes,,,"thrown out July 15, 2020 LP"
+5-26-2020,4,High,Fronteras,Inoculated,27,0,0,20,0,4,0,8,50,,Y,yes,,,"thrown out July 15, 2020 LP"
+5-26-2020,4,Low,Monterey,Inoculated,26,8,0,20,6,6,0,8,75,,Y,yes,,,"thrown out July 15, 2020 LP"
+5-26-2020,4,High,Monterey,Inoculated,21,2,0,20,10,8,0,8,100,,Y,no,yes,VSP-0551-MAph-FRan," roots thrown out July 15, 2020 LP"
+5-26-2020,4,Low,Fronteras,Inoculated,21,4,0,20,20,7,0,8,87.5,,Y,no,,,"thrown out July 15, 2020 LP"
+5-26-2020,4,Low,Fronteras,Inoculated,19,3,0,20,15,4,0,8,50,,Y,yes,,,"thrown out July 15, 2020 LP"
+5-26-2020,4,High,Monterey,Inoculated,26,5,0,20,25,0,0,8,0,,Y,yes,,,"thrown out July 15, 2020 LP"
+6-9-2020,2,Optimal,Monterey,Control,5,4,0,20,20,8,0,8,100,,Y,no,yes,VSP-0548-MAph-FRan,"non Mp roots thrown out July 15, 2020 LP"
+6-9-2020,1,Optimal,Fronteras,Control,4,0,0,20,0,8,0,8,100,,Y,no,yes,VSP-0552-MAph-FRan,"roots thrown out July 15, 2020 LP"
+6-9-2020,1,Optimal,Fronteras,Inoculated,12,0,0,20,0,6,0,8,75,,Y,no,,,"thrown out July 6, 2020 LP"
+6-9-2020,1,Low,Fronteras,Inoculated,29,0,0,20,0,3,0,8,37.5,,Y,no,,,"thrown out July 6, 2020 LP"
+6-9-2020,3,Low,Fronteras,Inoculated,4,0,0,20,0,5,0,8,62.5,,Y,no,,,"thrown out July 6, 2020 LP"
+6-9-2020,4,Low,Fronteras,Inoculated,13,0,0,20,0,5,0,8,62.5,,Y,no,,,"thrown out July 6, 2020 LP"
+6-9-2020,2,Optimal,Monterey,Inoculated,13,0,0,19,0,8,0,8,100,,Y,no,yes,VSP-0547-MAph-FRan,"roots thrown out July 15, 2020 LP"
+6-9-2020,2,Low,Monterey,Control,9,2,0,20,10,6,0,8,75,,Y,no,yes,VSP-0549-MAph-FRan,"non Mp roots thrown out July 15, 2020 LP"
+6-9-2020,2,High,Fronteras,Inoculated,1,0,0,20,0,6,0,8,75,,Y,no,,,"thrown out July 6, 2020 LP"
+6-9-2020,2,Low,Monterey,Inoculated,8,1,0,20,5,8,0,8,100,,Y,no,,,"thrown out July 6, 2020 LP"
+6-23-2020,1,High,Fronteras,Control,22,1,0,20,5,5,0,8,62.5,,Y,yes,yes,VSP-0541-MAph-FRan,"roots thrown out July 14, 2020 LP"
+6-23-2020,1,High,Fronteras,Inoculated,27,0,0,20,0,4,0,8,50,,Y,yes,,,"thrown out July 14, 2020 LP"
+6-23-2020,1,High,Monterey,Control,3,1,0,20,5,7,0,8,87.5,,Y,no,yes,VSP-0538-MAph-FRan,"roots and crown thrown out July 14, 2020 LP "
+6-23-2020,1,High,Monterey,Control,11,0,0,20,0,0,0,8,0,,N,yes,,,
+6-23-2020,1,High,Monterey,Inoculated,2,5,0,20,25,1,0,8,12.5,,Y,yes,,,"thrown out July 14, 2020 LP"
+6-23-2020,1,Low,Fronteras,Control,27,0,0,20,0,0,0,8,0,,N,yes,,,
+6-23-2020,1,Low,Fronteras,Inoculated,19,0,0,20,0,2,0,8,25,,Y,yes,,,"thrown out July 14, 2020 LP"
+6-23-2020,1,Low,Monterey,Control,27,1,0,20,5,8,0,8,100,,Y,yes,yes,VSP-0535-MAph-FRan,"roots and crown thrown out July 14, 2020 LP "
+6-23-2020,1,Low,Monterey,Inoculated,15,1,0,20,5,8,0,8,100,,Y,yes,,,"thrown out July 14, 2020 LP"
+6-23-2020,1,Optimal,Fronteras,Control,12,0,0,20,0,4,0,8,50,,Y,no,yes,VSP-0539-MAph-FRan,"roots and crown thrown out July 14, 2020 LP "
+6-23-2020,1,Optimal,Fronteras,Control,6,0,0,20,0,0,0,8,0,,N,yes,,,
+6-23-2020,1,Optimal,Fronteras,Inoculated,6,0,0,20,0,4,0,8,50,,Y,yes,,,"thrown out July 14, 2020 LP"
+6-23-2020,1,Optimal,Monterey,Control,14,0,0,20,0,0,0,8,0,,N,yes,,,
+6-23-2020,1,Optimal,Monterey,Inoculated,22,0,0,20,0,6,0,8,75,,Y,yes,,,"thrown out July 14, 2020 LP"
+6-23-2020,2,High,Fronteras,Control,14,0,0,20,0,3,0,8,37.5,,Y,no,yes,VSP-0545-MAph-FRan,"roots thrown out July 14, 2020 LP"
+6-23-2020,2,High,Fronteras,Control,3,0,0,20,0,0,0,8,0,,N,yes,,,
+6-23-2020,2,High,Fronteras,Inoculated,30,0,0,20,0,6,0,8,75,,Y,yes,,,"thrown out July 14, 2020 LP"
+6-23-2020,2,High,Monterey,Control,10,0,0,20,0,0,0,8,0,,N,no,,,"roots thrown out July 14, 2020 LP"
+6-23-2020,2,High,Monterey,Control,11,0,1,20,0,0,0,8,0,,N,yes,,,
+6-23-2020,2,High,Monterey,Inoculated,22,0,0,19,0,8,0,8,100,,Y,yes,,,"thrown out July 14, 2020 LP"
+6-23-2020,2,Low,Fronteras,Control,1,0,0,20,0,6,0,8,75,,Y,no,yes,VSP-0542-MAph-FRan,"roots thrown out July 14, 2020 LP"
+6-23-2020,2,Low,Fronteras,Control,22,0,0,20,0,0,0,8,0,,N,yes,,,
+6-23-2020,2,Low,Fronteras,Inoculated,14,0,0,20,0,5,0,8,62.5,,Y,yes,,,"thrown out July 14, 2020 LP"
+6-23-2020,2,Low,Monterey,Control,29,0,0,20,0,8,0,8,100,,Y,no,yes,VSP-0544-MAph-FRan,"roots thrown out July 14, 2020 LP"
+6-23-2020,2,Low,Monterey,Control,27,1,0,20,5,0,0,8,0,,Y,yes,yes,VSP-0543-MAph-FRan,"crown and non-Mp roots thrown out July 14, 2020 LP"
+6-23-2020,2,Low,Monterey,Inoculated,26,0,0,20,0,5,0,8,62.5,,Y,yes,,,"thrown out July 14, 2020 LP"
+6-23-2020,2,Optimal,Fronteras,Control,15,0,0,20,0,0,0,8,0,,N,yes,,,
+6-23-2020,2,Optimal,Fronteras,Inoculated,19,0,0,20,0,5,0,8,62.5,,Y,yes,,,"thrown out July 14, 2020 LP"
+6-23-2020,2,Optimal,Monterey,Control,3,0,0,20,0,0,0,8,0,,N,no,,,"Fusarium growing from crown, roots thrown out July14, 2020 LP"
+6-23-2020,2,Optimal,Monterey,Control,15,1,0,20,5,4,0,8,50,,Y,yes,,,"roots and crown thrown out July 14, 2020 LP "
+6-23-2020,2,Optimal,Monterey,Inoculated,10,1,0,15,6.666666667,4,0,8,50,,Y,yes,yes,VSP-0537-MAph-FRan,"roots and crown not saving thrown out July 14, 2020 LP"
+6-23-2020,3,Low,Monterey,Control,10,1,0,20,5,8,0,8,100,,Y,no,yes,VSP-0536-MAph-FRan,"thrown out July 14, 2020 LP"
+6-23-2020,4,High,Fronteras,Control,22,0,0,20,0,0,0,8,0,,N,yes,,,
+6-23-2020,4,High,Fronteras,Inoculated,30,0,0,20,0,4,0,8,50,,Y,no,,,"thrown out July 14, 2020 LP"
+6-23-2020,4,High,Fronteras,Inoculated,19,0,0,20,0,6,0,8,75,,Y,yes,,,"thrown out July 14, 2020 LP"
+6-23-2020,4,High,Monterey,Control,15,0,0,20,0,0,0,8,0,,N,yes,,,
+6-23-2020,4,High,Monterey,Inoculated,10,1,0,20,5,8,0,8,100,,Y,yes,yes,VSP-0546-MAph-FRan,
+6-23-2020,4,Low,Fronteras,Inoculated,27,0,0,20,0,4,0,8,50,,Y,yes,yes,VSP-0540-MAph-FRan,"roots thrown out July 14, 2020 LP"
+6-23-2020,4,Low,Monterey,Control,11,0,0,20,0,3,0,8,37.5,,Y,yes,,,"thrown out July 14, 2020 LP"
+6-23-2020,4,Low,Fronteras,Control,18,0,0,20,0,0,0,8,0,,N,no,,,"crown plates contaminated with Rhizopus/Mucor, roots thrown out July 14, 2020 LP"
+6-23-2020,4,Optimal,Fronteras,Control,30,0,0,20,0,0,0,8,0,,N,yes,,,
+6-23-2020,4,Optimal,Fronteras,Inoculated,11,0,0,20,0,0,0,8,0,,N,yes,,,
+6-23-2020,4,Optimal,Monterey,Control,15,0,0,20,0,0,0,8,0,,N,yes,,,
+6-23-2020,4,Optimal,Monterey,Inoculated,3,0,0,20,0,0,0,8,0,,N,yes,,,"crown plates unknown growth and contamination with fluffy Mucor? roots thrown out July 14, 2020 LP"
+6-23-2020,4,Low,Monterey,Inoculated,10,0,0,20,0,3,0,8,37.5,,Y,yes,,,"thrown out July 14, 2020 LP"
