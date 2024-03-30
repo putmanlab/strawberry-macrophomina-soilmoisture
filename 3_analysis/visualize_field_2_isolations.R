@@ -33,7 +33,7 @@ conflict_prefer("filter", "dplyr")
 conflict_prefer("lag", "dplyr")
 conflict_prefer("spread", "tidyr")
 
-setwd("/home/sb-mac-irr")
+setwd("/home/strawberry-macrophomina-soilmoisture")
 
 
 ##################

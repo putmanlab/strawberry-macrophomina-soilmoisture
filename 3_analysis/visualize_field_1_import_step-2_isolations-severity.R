@@ -25,14 +25,14 @@ conflict_prefer("filter", "dplyr")
 conflict_prefer("lag", "dplyr")
 conflict_prefer("spread", "tidyr")
 
-setwd("/home/sb-mac-irr")
+setwd("/home/strawberry-macrophomina-soilmoisture")
 
 
 #####################################################
 ##### SEVERITY - MANUAL QUALITY CONTROL - INPUT #####
 #####################################################
 
-### upload
+### upload (save .xlsx in 2_data_curated_worksheets as .csv, append "_out" to filename, and move to 2_data_curated)
 	in.manual.1 = read_csv(file="./2_data_curated/severity-isolation_manual-qual-control_step-2_2019_out.csv", col_names=T, na="")
 	in.manual.2 = read_csv(file="./2_data_curated/severity-isolation_manual-qual-control_step-2_2020_out.csv", col_names=T, na="")
 	in.manual.3 = read_csv(file="./2_data_curated/severity-isolation_manual-qual-control_step-2_2021_out.csv", col_names=T, na="")
