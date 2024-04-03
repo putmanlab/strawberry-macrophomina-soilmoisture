@@ -377,7 +377,7 @@ setwd("/home/strawberry-macrophomina-soilmoisture")
 #		geom_line(linewidth=0.25) +
 		geom_line(size=0.25) +
 		scale_x_datetime(name="Month of season", date_breaks=("month"), date_labels=("%b")) +
-		scale_y_continuous(name="Soil Moisture Tension (kPa)",expand=c(0,0)) +
+		scale_y_continuous(name="Soil Moisture (kPa)",expand=c(0,0)) +
 		facet_grid(irrigation~season, scales="free_x") +
 		coord_cartesian(ylim=c(-61, 5) ) +
 		theme_bw()+
@@ -408,7 +408,7 @@ setwd("/home/strawberry-macrophomina-soilmoisture")
 		scale_color_manual(limits=c("> -5","-5 to -10","-10 to -30", "-30 to -60", "< -60"), values=c("#00B0F6","#00BF7D","#A4A500","#F8766D","#E76BF3") ) +
 		theme_bw() +
 		theme(legend.position="bottom") +
-		labs(x="Month", y="Percent Time in Range (%)")
+		labs(x="Month", y="Percent Time in Range (%)", color="Soil Moisture (kPa)", fill="Soil Moisture (kPa)")
 		
 	ggplot2::ggsave(file="./4_results/supp-figure-S08_water_tension_exceed-threshold_month.png", device="png", plot=plot.tension.threshold.2, width=7, height=5, units="in", dpi=600)
 		      
