@@ -317,19 +317,20 @@ setwd("/home/strawberry-macrophomina-soilmoisture")
 	              
 	p.root.stat = plot_grid(p.root.a, p.root.b, ncol=1, align="h", axis="lr")
        
-	ggplot2::ggsave(file="./4_results/figure-1_isolations-random_root.png", device="png", plot=p.root.stat, width=3.25, height=6, units="in", dpi=600)
+#	ggplot2::ggsave(file="./4_results/figure-1_isolations-random_root.png", device="png", plot=p.root.stat, width=3.25, height=6, units="in", dpi=600)
 
 
 ### crown - significant effects
 	## make annotation tibbles 
 		# pvalue bracket
 		crown.pval = tibble(
-			season	  =c("2019-2020", "2019-2020"),
-			inoculum  =c("Inoculated","Inoculated"), 
-			xmin	  =c("Low",		  "Optimal"),
-			xmax	  =c("Optimal",	  "High"),
-			p_value   =c("0.0292",	  "0.9160"),
-			y_position=c(28,31) )
+			season	  	=c("2019-2020", "2019-2020"),
+			inoculum  	=c("Inoculated","Inoculated"), 
+			xmin	  	=c("Low",		  "Optimal"),
+			xmax	  	=c("Optimal",	  "High"),
+			p_value   	=c("0.0292",	  "0.9160"),
+			y_position	=c(28,31),
+			y_position_2=c(28,30) )
  
  		# other
 		crown.annot = tibble(
@@ -353,6 +354,44 @@ setwd("/home/strawberry-macrophomina-soilmoisture")
 		labs(y="Crown Isolation Incidence (%)", x="Soil Moisture") 
 	}
 
-	ggplot2::ggsave(file="./4_results/figure-2_isolations-random_crown.png", device="png", plot=p.crown, width=7, height=3.5, units="in", dpi=600)
+#	ggplot2::ggsave(file="./4_results/figure-2_isolations-random_crown.png", device="png", plot=p.crown, width=7, height=3.5, units="in", dpi=600)
+
+	## plot 2 (for combined) - irrigation x inoculum 2019-2020, 2020-2021; label=format forces printing .0
+		# a - 2019-2020
+		p.crown.2a = summ.piece.plot %>% filter(tissue == "crown" & season %in% c("2019-2020") ) %>% {
+		ggplot(., aes(x=irrigation) ) +
+			geom_dotplot(aes(y=percent_pieces_mp), binaxis="y", binwidth=1, dotsize=1, stackdir="center", stackratio=1.25) +
+			geom_crossbar(data={summ.piece.crown %>% filter(season == "2019-2020") }, aes(y=avg_percent_pieces_mp, ymin=avg_percent_pieces_mp, ymax=avg_percent_pieces_mp), width=0.2, color="red") +
+			geom_text(data={summ.piece.crown %>% filter(season == "2019-2020") }, aes(y=avg_percent_pieces_mp, label=format(round(avg_percent_pieces_mp, digits=0))), size=3, color="red", hjust=2.8) +
+			geom_bracket(data={crown.pval %>% filter(season == "2019-2020") }, aes(xmin=xmin, xmax=xmax, y.position=y_position_2, label=p_value), label.size=3, vjust=0) +
+			geom_text(data={crown.annot %>% filter(season == "2019-2020") }, aes(x=irrigation, label=text_lab), y=31, size=3) +
+			facet_grid(cols=vars(season), rows=vars(inoculum) ) +
+			scale_y_continuous(limits=c(0,32.5)) +
+			theme_bw() +
+			theme(axis.text.y=element_text(size=10), axis.text.x=element_blank(), axis.title.y=element_text(size=12), axis.title.x=element_blank(), strip.text=element_text(size=10) ) +
+			labs(y="Crown Isolation Incidence (%)", x="Soil Moisture", tag="C") 
+		}
+		
+		# b - 2020-2021
+		p.crown.2b = summ.piece.plot %>% filter(tissue == "crown" & season %in% c("2020-2021") ) %>% {
+		ggplot(., aes(x=irrigation) ) +
+			geom_dotplot(aes(y=percent_pieces_mp), binaxis="y", binwidth=1, dotsize=1, stackdir="center", stackratio=1.25) +
+			geom_crossbar(data={summ.piece.crown %>% filter(season == "2020-2021") }, aes(y=avg_percent_pieces_mp, ymin=avg_percent_pieces_mp, ymax=avg_percent_pieces_mp), width=0.2, color="red") +
+			geom_text(data={summ.piece.crown %>% filter(season == "2020-2021") }, aes(y=avg_percent_pieces_mp, label=format(round(avg_percent_pieces_mp, digits=0))), size=3, color="red", hjust=2.8) +
+			geom_text(data={crown.annot %>% filter(season == "2020-2021") }, aes(x=irrigation, label=text_lab), y=31, size=3) +
+			facet_grid(cols=vars(season), rows=vars(inoculum) ) +
+			scale_y_continuous(limits=c(0,32.5)) +
+			theme_bw() +
+			theme(axis.text=element_text(size=10), axis.title=element_text(size=12), strip.text=element_text(size=10) ) +
+			labs(y="Crown Isolation Incidence (%)", x="Soil Moisture", tag="D") 
+		}
+
+		p.crown.2 = plot_grid(p.crown.2a, p.crown.2b, ncol=1, align="h", axis="lr")
+		
+### both tissues - significant effects
+	p.both = plot_grid(p.root.stat, p.crown.2, nrow=1)
+
+	ggplot2::ggsave(file="./4_results/figure-1_isolations-random_root-crown.png", device="png", plot=p.both, width=7, height=6, units="in", dpi=600)
+
 
 
