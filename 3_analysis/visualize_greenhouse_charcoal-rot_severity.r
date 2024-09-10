@@ -157,6 +157,14 @@ source("./3_analysis/functions_visualize.r")
 	summ.1.rat.sig.2 = rating.normalize(df.x=data.gh, summ.cols=c("cultivar"), n.plants=30 )
 	summ.1.rat.sig.3 = rating.normalize(df.x=data.gh, summ.cols=c("inoculum","irrigation"), n.plants=10 )
 
+### determine days since inoculation for each rating date
+	data.gh %>%
+		distinct(season, date) %>%
+		mutate(days_after_inoculation=case_when(
+			(season == "2019-2020") ~ date - as_date("2019-10-24"),
+			(season == "2020-2021") ~ date - as_date("2020-10-26") ) ) %>%
+		print(n=Inf)
+
 
 #####################
 ##### VISUALIZE #####
