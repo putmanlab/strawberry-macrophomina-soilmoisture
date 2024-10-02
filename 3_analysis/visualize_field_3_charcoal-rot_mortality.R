@@ -243,7 +243,7 @@ source("./3_analysis/functions_visualize.r")
 	plot.both = wrap_plots(plot.irin, plot.cuin, ncol=1)
 	
 	ggplot2::ggsave(file="./4_results/figure-2_charcoal-rot-mortality_19_20.png", device="png", plot=plot.both, width=7, height=6.5, units="in", dpi=600)
-      	  
+
 	
 ############################
 ##### VISUALIZE - 2018 #####
@@ -331,3 +331,47 @@ source("./3_analysis/functions_visualize.r")
 	}
 #	ggplot2::ggsave(file="./4_results/z_not-shown_observations_mortality.png", device="png", plot=plot.obs.line, width=10, height=6, units="in", dpi=600)
 
+
+################################
+##### TEMPORARY - FOR TALK #####  
+################################
+
+### irrigation x inoculum
+	## line graph all dates
+	plot.temp.irin.line = summ.plot.allt.dat %>% filter(season %in% c("2019-2020","2020-2021") ) %>% {
+	ggplot(., aes(x=date, y=severity_mort_perc, color=irrigation, linetype=irrigation ) ) +
+#		geom_line(aes(group=interaction(irrigation, cultivar, inoculum, block) ), size=0.2, alpha=0.6) +
+		geom_line(data={ summ.trtm.irin.dat %>% filter(season %in% c("2019-2020","2020-2021") ) }, size=1.5) +
+		facet_grid(cols=vars(season), rows=vars(inoculum), scales="free_x") +
+		scale_x_date(limits=facet_limits, breaks=facet_breaks, date_labels="%b %d", date_minor_breaks="2 week") +
+		scale_y_continuous(limits=c(0,100) ) +
+		scale_linetype_manual(values=c("42","22","solid"), labels=c("Low","Optimal","High") ) +
+		theme_bw() +
+		theme(axis.text.y=element_text(size=13), axis.text.x=element_text(size=12), axis.title.y=element_text(size=14, margin=margin(r=5.5) ), axis.title.x=element_text(size=13, margin=margin(t=5.5) ) ) +
+		theme(strip.text.y=element_blank(), strip.background.y=element_blank(), strip.text.x=element_text(size=14, margin=margin(2.2,4.4,2.2,4.4, "pt") ) ) + # reduce margins, default all = 4.4 pt
+		theme(legend.position=c(0.10,0.84), legend.title=element_text(size=12, margin=margin(b=8.25) ), legend.text=element_text(size=12), legend.spacing.y=unit(0, "lines") ) +
+		theme(plot.tag.position=c(0.04,0.98) ) +
+		guides(color=guide_legend(nrow=3, byrow=TRUE), linetype=guide_legend(nrow=3, byrow=TRUE)) +
+		labs(x="Rating Date", y="Mortality Incidence (%)", color="Soil moisture", linetype="Soil moisture", tag="A")
+	}
+	
+	## dotplot plot averages
+	plot.temp.irin.dot = summ.plot.allt.avg %>% filter(season %in% c("2019-2020","2020-2021") ) %>% {
+	ggplot(., aes(x=irrigation, y=severity_mort_perc) ) +
+		geom_dotplot(binaxis="y", binwidth=1.5, dotsize=1.7, stackdir="center", stackratio=1.25) +
+		geom_crossbar(data={ summ.trtm.irin.avg %>% filter(season %in% c("2019-2020","2020-2021") ) }, aes(ymin=severity_mort_perc, ymax=severity_mort_perc), width=0.3, fatten=2, color="red") +
+		geom_text(data={ summ.trtm.irin.avg %>% filter(season %in% c("2019-2020","2020-2021") ) }, aes(label=severity_mort_perc), size=4, color="red", hjust=1, nudge_x=-0.25 ) +
+		geom_text(data=annot.irin, aes(label=text_label), size=4.5) +
+		facet_grid(cols=vars(season), rows=vars(inoculum)) +
+		scale_y_continuous(limits=c(0,100) ) +
+		scale_x_discrete(expand=expansion(add=c(0.8,0.4) ) ) + # shift ticks to right by adding buffer to left and removing buffer to right (default = 0.6)
+		theme_bw() +
+		theme(axis.text.y=element_text(size=13), axis.text.x=element_text(size=12), axis.title.y=element_blank(), axis.title.x=element_text(size=14, margin=margin(t=5.5) ) ) +
+		theme(strip.text.x=element_text(size=14, margin=margin(2.2,4.4,2.2,4.4, "pt") ), strip.text.y=element_text(size=14, margin=margin(4.4,2.2,4.4,2.2) ) ) + # reduce margins, default all = 4.4 pt
+		theme(plot.tag.position=c(0.04,0.98) ) +
+		labs(x="Soil moisture", tag="B")
+	}
+
+	plot.temp.irin = wrap_plots(plot.temp.irin.line, plot.temp.irin.dot, nrow=1, widths=c(2.1,1) )
+
+	ggplot2::ggsave(file="./4_results/talk-example_charcoal-rot-mortality_19_20_irrigation-inoculum.png", device="png", plot=plot.temp.irin, width=12.33, height=5, units="in", dpi=600)

@@ -411,4 +411,35 @@ setwd("/home/strawberry-macrophomina-soilmoisture")
 		labs(x="Month", y="Percent Time in Range (%)", color="Soil Moisture (kPa)", fill="Soil Moisture (kPa)")
 		
 	ggplot2::ggsave(file="./4_results/supp-figure-S08_water_tension_exceed-threshold_month.png", device="png", plot=plot.tension.threshold.2, width=7, height=5, units="in", dpi=600)
-		      
+
+
+################################
+##### TEMPORARY - FOR TALK #####  
+################################
+# example for talk
+
+### summarize
+	temp.summ.trt = data.tension.1hr %>%
+		group_by(season, irrigation, Datetime=ceiling_date(Datetime, "15 min", change_on_boundary=F) ) %>%
+		summarize(tension_avg=mean(tension_avg, na.rm=F) ) %>%
+		ungroup()
+		
+	## factor
+	temp.summ.trt = temp.summ.trt %>% mutate(irrigation=fct_relevel(irrigation, c("Low","Optimal","High") ) )
+	
+### visualize
+	plot.temp.talk = temp.summ.trt %>% filter(Datetime >= as_datetime("2021-03-16 00:00:00", tz="Etc/GMT+8") & Datetime <= as_datetime("2021-04-02 12:00:00", tz="Etc/GMT+8") ) %>% {
+	ggplot(., aes(x=Datetime, y=tension_avg, color=irrigation, linetype=irrigation) ) +
+		geom_line(size=1) +
+		scale_x_datetime(breaks=as_datetime(c("2021-03-16 00:01:00","2021-03-23 00:01:00","2021-03-30 00:01:00"), tz="Etc/GMT+8"), date_minor_breaks="day", date_labels=("%b %d")) +
+		scale_y_continuous(limits=c(-31,1), expand=c(0,0) ) +
+#		scale_color_manual(values=c("red","gold2","forestgreen") ) +
+		scale_linetype_manual(values=c("22","42","solid") ) +
+		theme_bw()+
+		theme(
+			axis.title.y=element_text(size=14, margin=margin(r=5.5) ), axis.title.x=element_text(size=14),
+			axis.text.y=element_text(size=12), axis.text.x=element_text(size=12),
+			legend.position="bottom", legend.text=element_text(size=11), legend.margin = margin(t=-5.5, b=-5.5) ) +
+		labs(x="Date", y="Soil Moisture (kPa)", color="Soil moisture", linetype="Soil moisture")
+    }
+	ggplot2::ggsave(file="./4_results/talk-example_water_tension_1hr.png", device="png", plot=plot.temp.talk, width=6.17, height=2.5, units="in", dpi=600)

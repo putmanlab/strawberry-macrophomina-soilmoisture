@@ -297,3 +297,26 @@ setwd("/home/strawberry-macrophomina-soilmoisture")
 			(date >= as_date("2021-04-03") & date <= as_date("2021-05-01") ) ) %>%
 		group_by(season) %>%
 		summarize(date_min=min(date), date_max=max(date), across(c(eto_mm, temp_air_c, temp_soil_c), ~ mean(.x, na.rm=TRUE) ) )
+
+
+################################
+##### TEMPORARY - FOR TALK #####  
+################################
+# example for talk
+
+### plot
+	plot.temp.irr = data.flow.2 %>% filter(date >= as_date("2021-03-16") & date <= as_date("2021-04-02") ) %>% {
+	ggplot(., aes(x=date_plot, y=irrigation_cumul_mm, color=treatment, linetype=treatment) ) +
+		geom_line(size=1) +
+		scale_x_date(date_breaks="week", date_minor_breaks="day", date_labels=("%b %d")) +
+		scale_color_manual(values=c("#F8766D","#00BA38","#619CFF"), labels=c("Low","Optimal","High") ) +
+		scale_linetype_manual(values=c("42","22","solid"), labels=c("Low","Optimal","High") ) +
+		theme_bw() +
+		theme(
+			axis.title.y=element_text(size=14, margin=margin(r=5.5) ), axis.title.x=element_text(size=14),
+			axis.text.y=element_text(size=12), axis.text.x=element_text(size=12),
+			legend.position="bottom", legend.text=element_text(size=11), legend.margin = margin(t=-5.5, b=-5.5) ) +
+		labs(x="Date", y="Cumul. irrigation (mm)", color="Soil moisture", linetype="Soil moisture")
+	}	
+	ggplot2::ggsave(file="./4_results/talk-example_water-flow_cumulative.png", device="png", plot=plot.temp.irr, width=6.17, height=2.5, units="in", dpi=600)
+ 
