@@ -242,7 +242,8 @@ source("./3_analysis/functions_visualize.r")
 	
 	plot.both = wrap_plots(plot.irin, plot.cuin, ncol=1)
 	
-	ggplot2::ggsave(file="./4_results/figure-2_charcoal-rot-mortality_19_20.png", device="png", plot=plot.both, width=7, height=6.5, units="in", dpi=600)
+	ggplot2::ggsave(file="./4_results/figure-3_charcoal-rot-mortality_19_20.png", device="png", plot=plot.both, width=7, height=6.5, units="in", dpi=600)
+	ggplot2::ggsave(file="./4_results/Pedroncelli strawberry Mac irrigation fig-3.tif", device="tiff", plot=plot.both, width=7, height=6.5, units="in", dpi=500, compression="lzw")
 
 	
 ############################

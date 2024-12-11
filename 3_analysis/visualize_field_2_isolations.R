@@ -391,7 +391,8 @@ setwd("/home/strawberry-macrophomina-soilmoisture")
 ### both tissues - significant effects
 	p.both = plot_grid(p.root.stat, p.crown.2, nrow=1)
 
-	ggplot2::ggsave(file="./4_results/figure-1_isolations-random_root-crown.png", device="png", plot=p.both, width=7, height=6, units="in", dpi=600)
+	ggplot2::ggsave(file="./4_results/figure-2_isolations-random_root-crown.png", device="png", plot=p.both, width=7, height=6, units="in", dpi=600)
+	ggplot2::ggsave(file="./4_results/Pedroncelli strawberry Mac irrigation fig-2.tif", device="tiff", plot=p.both, width=7, height=6, units="in", dpi=500, compression="lzw")
 
 
 

@@ -273,4 +273,5 @@ source("./3_analysis/functions_visualize.r")
 	plot.1.rat.sig = wrap_plots(plot.1.rat.sig.1, plot.1.rat.sig.2, plot.1.rat.sig.3, nrow=1, widths=c(1,1.5,2.1), guides="collect") +
 		plot_annotation(theme=theme(legend.position="bottom") )	
 	
-	ggplot2::ggsave(file="./4_results/figure-3_greenhouse-severity.png", device="png", plot=plot.1.rat.sig, width=7, height=4, units="in", dpi=600)
+	ggplot2::ggsave(file="./4_results/figure-4_greenhouse-severity.png", device="png", plot=plot.1.rat.sig, width=7, height=4, units="in", dpi=600)
+	ggplot2::ggsave(file="./4_results/Pedroncelli strawberry Mac irrigation fig-4.tif", device="tiff", plot=plot.1.rat.sig, width=7, height=4, units="in", dpi=500, compression="lzw")
